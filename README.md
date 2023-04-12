@@ -5,6 +5,7 @@
 - inside extracted folder 'CDataAPIServer\webapp' copy 'apiserver.war' to this folder
 - Build Docker Image 'docker build -t tomcat:apiserver .'
 - Run Container  'docker run --rm -it -p 8080:8080 tomcat:apiserver'
+- Open http://localhost:8080/apiserver/
 
-
-- Reference : https://www.cdata.com/jp/blog/apiserverdcoker
+### Reference
+- https://www.cdata.com/jp/blog/apiserverdcoker
